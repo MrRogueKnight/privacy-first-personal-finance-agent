@@ -1,0 +1,286 @@
+[
+  {
+    "store_name": "tan chay yee",
+    "date": "2019-01-15",
+    "line_items": [],
+    "total_amount": null,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X00016469670.jpg",
+    "image_name": "X00016469670.jpg",
+    "processing_time": 10.503397226333618
+  },
+  {
+    "store_name": "OJC MARKETING SDN BHD",
+    "date": "2019-01-02",
+    "line_items": [
+      {
+        "item_name": "KINGS SAFETY",
+        "price": null
+      }
+    ],
+    "total_amount": null,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X00016469671.jpg",
+    "image_name": "X00016469671.jpg",
+    "processing_time": 8.23822283744812
+  },
+  {
+    "store_name": "GOGIANT ENGINEERING (M) SDN BHD",
+    "date": "2018-09-02",
+    "line_items": [
+      {
+        "item_name": "CERAMIC CAP",
+        "price": 3.5
+      },
+      {
+        "item_name": "S/STEEL 1/2 STREET ELBOW",
+        "price": 55.0
+      },
+      {
+        "item_name": "ESICUT 4 CUTTING DISC (1 BOX)-50PCS",
+        "price": 43.0
+      },
+      {
+        "item_name": "WELDRO PICKLING GEL 1KG",
+        "price": 43.0
+      },
+      {
+        "item_name": "13.5 WELDING GLOVE - GREEN (GS)",
+        "price": 10.0
+      }
+    ],
+    "total_amount": 436.2,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005200931.jpg",
+    "image_name": "X51005200931.jpg",
+    "processing_time": 24.828822374343872
+  },
+  {
+    "store_name": "Petron BKT Lanjan SB Alserkam Enterprise",
+    "date": "2018-01-02",
+    "line_items": [
+      {
+        "item_name": "double, mint tea",
+        "price": 3.0
+      },
+      {
+        "item_name": "sandwich vanilla",
+        "price": 1.9
+      }
+    ],
+    "total_amount": 4.9,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005230605.jpg",
+    "image_name": "X51005230605.jpg",
+    "processing_time": 10.245985507965088
+  },
+  {
+    "store_name": "Gerbang Alaf Restaurants Sdn Bhd",
+    "date": "2018-01-19",
+    "line_items": [
+      {
+        "item_name": "SpicyDeluxe",
+        "price": 25.4
+      },
+      {
+        "item_name": "M Coke",
+        "price": 25.4
+      },
+      {
+        "item_name": "Fries",
+        "price": 25.4
+      }
+    ],
+    "total_amount": 75.4,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005230616.jpg",
+    "image_name": "X51005230616.jpg",
+    "processing_time": 13.820427417755127
+  },
+  {
+    "store_name": "sin lianhap sdn bhd",
+    "date": "05/02/2018",
+    "line_items": [
+      {
+        "item_name": "PPD 4MM DENLIME",
+        "price": 1.887
+      },
+      {
+        "item_name": "6023# GARDEN",
+        "price": 5000.0
+      }
+    ],
+    "total_amount": 7.3,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005230621.jpg",
+    "image_name": "X51005230621.jpg",
+    "processing_time": 12.233215808868408
+  },
+  {
+    "store_name": "CROSS CHANNEL NETWORK SDN. BHD.",
+    "date": "",
+    "line_items": [
+      {
+        "item_name": "SCHNEIDER E15R 13A SWITCH",
+        "price": 6.36
+      }
+    ],
+    "total_amount": 6.36,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005230648.jpg",
+    "image_name": "X51005230648.jpg",
+    "processing_time": 8.34376311302185
+  },
+  {
+    "store_name": "CROSS CHANNEL NETWORK SDN. BHD.",
+    "date": "",
+    "line_items": [
+      {
+        "item_name": "20MM HERO PVC CONDUIT PIPE",
+        "price": 180.0
+      },
+      {
+        "item_name": "15A PVC CONNECTOR",
+        "price": 191.0
+      },
+      {
+        "item_name": "R & B-C/CLIP 8MM X 100PCS",
+        "price": 371.0
+      },
+      {
+        "item_name": "CABLE CLIPS @ 35000",
+        "price": 4000.0
+      }
+    ],
+    "total_amount": 7950.0,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005230657.jpg",
+    "image_name": "X51005230657.jpg",
+    "processing_time": 19.17136573791504
+  },
+  {
+    "store_name": null,
+    "date": null,
+    "line_items": [],
+    "total_amount": null,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005230659.jpg",
+    "image_name": "X51005230659.jpg",
+    "processing_time": 14.915570497512817
+  },
+  {
+    "store_name": "Lightroom Gallery SDN BHD",
+    "date": "2017-11-20",
+    "line_items": [
+      {
+        "item_name": "LED TRACK LIGHT",
+        "price": 45.29
+      },
+      {
+        "item_name": "BK TRACK HOLDER",
+        "price": 155.66
+      }
+    ],
+    "total_amount": 283.02,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005268275.jpg",
+    "image_name": "X51005268275.jpg",
+    "processing_time": 11.179778575897217
+  },
+  {
+    "store_name": "99 Speed Mart S/B (519537-X)",
+    "date": "20-11-17",
+    "line_items": [
+      {
+        "item_name": "PEDIASURE COMPLETE S3S",
+        "price": 117.9
+      },
+      {
+        "item_name": "WILD 2KG",
+        "price": 34.9
+      },
+      {
+        "item_name": "ZING HEING OAT & WHEAT",
+        "price": 4.1
+      },
+      {
+        "item_name": "DISNEY DS112 WIDE NECK",
+        "price": 69.89
+      },
+      {
+        "item_name": "JOHNSONS PM5.5 2IN1 BO",
+        "price": 99.99
+      }
+    ],
+    "total_amount": 169.78,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005268408.jpg",
+    "image_name": "X51005268408.jpg",
+    "processing_time": 25.37944197654724
+  },
+  {
+    "store_name": "SECURE PARKING CORPORATION S/B",
+    "date": "23.03.18",
+    "line_items": [
+      {
+        "item_name": "Secure Parking Corporation S/B",
+        "price": 0.94
+      }
+    ],
+    "total_amount": 0.94,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005288570.jpg",
+    "image_name": "X51005288570.jpg",
+    "processing_time": 8.426541566848755
+  },
+  {
+    "store_name": "Lightroom Gallery SDN BHD",
+    "date": "2017-11-20",
+    "line_items": [
+      {
+        "item_name": "LED TRACK LIGHT",
+        "price": 45.29
+      },
+      {
+        "item_name": "BK TRACK HOLDER",
+        "price": 155.66
+      }
+    ],
+    "total_amount": 283.02,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005301666.jpg",
+    "image_name": "X51005301666.jpg",
+    "processing_time": 11.120632648468018
+  },
+  {
+    "store_name": "OLDTOWN WHITE COFFEE",
+    "date": "2009-03-18",
+    "line_items": [
+      {
+        "item_name": "ST30",
+        "price": 13.87
+      },
+      {
+        "item_name": "BR10 Stm Ginger R",
+        "price": 12.07
+      }
+    ],
+    "total_amount": 25.94,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005337867.jpg",
+    "image_name": "X51005337867.jpg",
+    "processing_time": 10.037767171859741
+  },
+  {
+    "store_name": "UROKO JAPANESE CUISINE SDN BHD",
+    "date": "20/03/2018",
+    "line_items": [
+      {
+        "item_name": "Ko Nabe Inaniwa",
+        "price": 46.0
+      },
+      {
+        "item_name": "Green Tea",
+        "price": 1.0
+      },
+      {
+        "item_name": "Gyoza",
+        "price": 15.0
+      },
+      {
+        "item_name": "Garlic Chahan",
+        "price": 6.0
+      }
+    ],
+    "total_amount": 53.0,
+    "image_path": "/kaggle/input/datasets/urbikn/sroie-datasetv2/SROIE2019/test/img/X51005337877.jpg",
+    "image_name": "X51005337877.jpg",
+    "processing_time": 19.694417238235474
+  }
+]
