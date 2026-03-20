@@ -159,7 +159,6 @@ src/
 | Developer    | Ritik Prajapati            | Pipeline, GPU optimization, VLM        |
 | ML Engineer  | Rayapurreadyy Hema Sundhar | Model optimization, quantization       |
 | Data Analyst | Grihshant Manas Datta      | Categorization, analytics              |
-| QA Engineer  | Alok Yadav                 | Testing, debugging                     |
 
 ---
 
