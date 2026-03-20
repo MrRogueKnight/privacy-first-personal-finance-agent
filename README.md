@@ -1,153 +1,192 @@
-# 🧾 Privacy-First Receipt Extractor
-## Edge AI-Powered Document Intelligence
+# 🏆 Privacy-First Personal Finance Agent
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Kaggle](https://img.shields.io/badge/Kaggle-GPU%20Ready-blue.svg)](https://www.kaggle.com/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+### Edge AI • Document Intelligence • Fully Local Inference
 
-> A production-ready, privacy-first receipt extraction system using local Vision-Language Models (VLM) with GPU acceleration. Process receipts entirely offline without external API calls.
+<p align="center">
+  <b>Turn raw receipts into structured financial insights — without sending data to the cloud.</b>
+</p>
 
----
-
-## 📋 Table of Contents
-- [🚀 Key Features](#-key-features)
-- [🏃 Quick Start](#-quick-start)
-- [🏗️ System Architecture](#️-system-architecture)
-- [📦 Installation](#-installation)
-- [💻 Usage Guide](#-usage-guide)
-- [📊 Performance Metrics](#-performance-metrics)
-- [📁 Project Structure](#-project-structure)
-- [🔒 Privacy & Security](#-privacy--security)
-- [👥 Team](#-team)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+<p align="center">
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.9+-blue.svg"/></a>
+  <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-2.0+-red.svg"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg"/></a>
+  <a href="https://www.kaggle.com/"><img src="https://img.shields.io/badge/Kaggle-GPU%20Ready-blue.svg"/></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/></a>
+</p>
 
 ---
 
-## 🚀 Key Features
+## 🔗 Project Links
 
-| Feature | Description |
-|--------|------------|
-| 🔒 **Privacy-First** | 100% local processing, no external API calls |
-| ⚡ **GPU Accelerated** | Optimized for Tesla T4/P100 (6.7GB VRAM) |
-| 🧠 **Advanced AI** | Qwen2-VL-2B-Instruct with 4-bit quantization |
-| 📊 **Smart Analytics** | Automatic expense categorization and insights |
-| 📁 **Multi-format Export** | CSV, JSON, TXT, and visualization reports |
-| 🎯 **High Accuracy** | ~93% extraction success rate |
+* 📘 **Kaggle Notebook**
+  https://www.kaggle.com/code/mrrogueknight/privacy-first-personal-finance-agent
+
+* 💻 **GitHub Repository**
+  https://github.com/MrRogueKnight/privacy-first-personal-finance-agent
 
 ---
 
-## 🏃 Quick Start
+## 🚀 What This Project Does
 
-```bash
-git clone https://github.com/MrRogueKnight/privacy-first-personal-finance-agent.git
-cd privacy-first-personal-finance-agent
+This system converts **unstructured receipt images → structured financial data → actionable insights**, using a **Vision-Language Model (VLM)** — all while keeping data **100% private and local**.
 
-pip install -r requirements.txt
+> No APIs. No cloud calls. No data leakage.
 
-python src/main.py --input data/sample_receipts/ --output results/
+---
 
-cat results/extraction_summary.txt
+## 🎯 Why This Project Stands Out
+
+* 🔒 **Privacy-First AI** → Fully offline inference
+* ⚡ **Efficient LLM Usage** → 2B model with 4-bit quantization
+* 🧠 **Real-World Engineering** → Handles messy outputs & memory limits
+* 📊 **End-to-End System** → Not just ML — full pipeline + analytics
+* 🏗️ **Production-Oriented Design** → Stable, scalable, modular
+
+---
+
+## 🧠 System Overview
+
+```
+Receipts → Preprocessing → VLM Extraction → JSON Cleaning
+        → Categorization → Analytics → Export
 ```
 
----
+### 🔹 Pipeline Breakdown
 
-## 🏗️ System Architecture
-
-```text
-Data Loading 
-   ↓
-Image Preprocessing 
-   ↓
-VLM Extraction 
-   ↓
-JSON Parsing 
-   ↓
-Expense Categorization 
-   ↓
-Export & Visualization
-```
+| Stage           | Description                            |
+| --------------- | -------------------------------------- |
+| Data Loader     | Discovers and loads receipt images     |
+| Preprocessing   | Resize, orientation fix, normalization |
+| VLM Extraction  | Qwen2-VL-2B extracts structured data   |
+| Post-processing | Cleans malformed JSON outputs          |
+| Categorization  | Classifies expenses into categories    |
+| Analytics       | Generates financial insights           |
+| Export          | CSV, JSON, TXT, visualizations         |
 
 ---
 
-## 📦 Installation
+## 📊 Performance Snapshot
 
-### Prerequisites
-
-* Python 3.9+
-* CUDA GPU (recommended)
-* Kaggle or local setup
-
-### Local Setup
-
-```bash
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
-
-pip install -r requirements.txt
-
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-```
+| Metric         | Value                   |
+| -------------- | ----------------------- |
+| Dataset        | SROIE (973 receipts)    |
+| Model          | Qwen2-VL-2B (2B params) |
+| GPU            | Tesla P100 (16GB)       |
+| Avg Time       | ~12.65 sec/receipt      |
+| Success Rate   | 93%                     |
+| Total Accuracy | ~80–87%                 |
+| VRAM Usage     | ~6.7 GB                 |
 
 ---
 
-## 💻 Usage Guide
+## ⚙️ Key Engineering Decisions
 
-### Basic Usage
+### 🔹 Model Selection
 
-```python
-from src.extractor import ReceiptExtractor
-from src.categorizer import ExpenseCategorizer
+* Chose **Qwen2-VL-2B** over larger models
+* Better stability + no Flash Attention dependency
 
-extractor = ReceiptExtractor(
-    model_name="Qwen/Qwen2-VL-2B-Instruct",
-    quantization="4bit",
-    device="cuda"
-)
+### 🔹 Quantization Strategy
 
-receipt_data = extractor.process_receipt("receipt.jpg")
+* **4-bit NF4** → ~50% memory reduction
+* Minimal accuracy loss
 
-categorizer = ExpenseCategorizer()
-categorized = categorizer.categorize(receipt_data)
+### 🔹 Memory Management
 
-extractor.export_results(categorized, format="csv")
-```
+* Explicit cleanup (`gc.collect()`, `empty_cache()`)
+* Prevents long-run GPU crashes
+
+### 🔹 Robust Output Handling
+
+* Regex-based JSON repair
+* Handles noisy LLM outputs reliably
 
 ---
 
-## 📊 Performance Metrics
+## 📈 Example Outputs
 
-| Metric         | Value           |
-| -------------- | --------------- |
-| Total Receipts | 100             |
-| Success Rate   | 93%             |
-| Avg Time       | 12.65 sec/image |
-| GPU Usage      | 39%             |
-| VRAM           | 6.7 GB          |
+* Structured receipt data (store, total, items)
+* Category-wise expense breakdown
+* Store frequency analysis
+* Financial summaries
 
 ---
 
 ## 📁 Project Structure
 
-```text
-src/
- ├── extractor.py
- ├── categorizer.py
- ├── model_manager.py
- ├── exporter.py
- └── utils.py
+```
+├── notebooks/
+│   └── kaggle_pipeline.ipynb
+├── outputs/
+│   ├── extracted_receipts.csv
+│   ├── receipt_insights.json
+│   ├── extraction_summary.txt
+│   └── receipt_visualizations.png
+├── src/
+│   ├── data_loader.py
+│   ├── extractor.py
+│   ├── pipeline.py
+│   └── analyzer.py
+├── README.md
+└── requirements.txt
 ```
 
 ---
 
-## 🔒 Privacy & Security
+## ▶️ Getting Started
 
-* No external API calls
-* Fully local processing
-* GDPR-ready
-* Secure memory handling
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/MrRogueKnight/privacy-first-personal-finance-agent.git
+cd privacy-first-personal-finance-agent
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run Pipeline
+
+```bash
+python main.py
+```
+
+Or use the Kaggle notebook (recommended for GPU):
+
+👉 https://www.kaggle.com/code/mrrogueknight/privacy-first-personal-finance-agent
+
+---
+
+## 🚧 Challenges Solved
+
+| Problem               | Solution                       |
+| --------------------- | ------------------------------ |
+| GPU memory crashes    | Aggressive cleanup strategy    |
+| Model incompatibility | Switched to stable VLM         |
+| Broken JSON outputs   | Multi-stage sanitization       |
+| Fake “local” models   | Ensured true offline execution |
+
+---
+
+## 🔄 Future Improvements
+
+### 🔥 High Impact
+
+* Replace keyword categorization with **zero-shot classification**
+* Add **confidence scoring system**
+* Introduce **evaluation metrics (Precision / Recall / F1)**
+* Implement **micro-batching for speed optimization**
+
+### 🚀 Roadmap
+
+* Fine-tuning on receipts
+* Multi-language support
+* Streamlit / FastAPI UI
+* ONNX / TensorRT acceleration
+* Edge/mobile deployment
 
 ---
 
@@ -162,31 +201,25 @@ src/
 
 ---
 
-## 🤝 Contributing
+## 💡 Key Takeaways
 
-```bash
-git clone https://github.com/MrRogueKnight/privacy-first-personal-finance-agent.git
-pip install -r requirements-dev.txt
-pytest
-```
-
----
-
-## 📄 License
-
-MIT License
+* Small models + smart engineering > large models alone
+* Privacy-first AI is achievable today
+* Post-processing is critical in LLM systems
+* Memory management is essential for production ML
 
 ---
 
-## ⭐ Support
+## ⭐ Support & Contribution
+
+If you find this project useful:
 
 * ⭐ Star the repo
-* 🍴 Fork it
-* 📢 Share it
+* 🔁 Share with others
+* 🤝 Open a pull request
 
 ---
 
-<div align="center">
-Made with ❤️ by Team Privacy-First AI
-</div>
-```
+## 📜 License
+
+MIT License
