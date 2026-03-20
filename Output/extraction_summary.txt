@@ -1,0 +1,27 @@
+================================================================================
+RECEIPT EXTRACTION SUMMARY
+================================================================================
+
+Total Receipts Processed: 15
+Successful Extractions: 14
+Total Spend: $9,295.86
+Average Spend: $774.66
+Average Items per Receipt: 2.3
+
+TOP STORES:
+  CROSS CHANNEL NETWORK SDN. BHD.: 2 receipts
+  Lightroom Gallery SDN BHD: 2 receipts
+  tan chay yee: 1 receipts
+  OJC MARKETING SDN BHD: 1 receipts
+  Petron BKT Lanjan SB Alserkam Enterprise: 1 receipts
+
+SPEND BY CATEGORY:
+  Other: $6,777.17
+  Electronics: $4,000.00
+  Groceries: $29.40
+  Dining: $1.90
+  Transport: $0.94
+
+PROCESSING PERFORMANCE:
+  Average Time per Receipt: 13.88s
+  Total Processing Time: 208.14s
