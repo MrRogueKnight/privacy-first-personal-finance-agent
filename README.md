@@ -225,4 +225,3 @@ MIT License — see [LICENSE](LICENSE) file for details.
 <p align="center">
   <b>Privacy-First AI • Edge Deployment • Document Intelligence</b>
 </p>
-```
