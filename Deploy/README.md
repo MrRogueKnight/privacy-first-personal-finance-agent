@@ -1,6 +1,6 @@
 ---
-title: Privacy-First Receipt Extractor
-emoji: 🧾
+title: Expense Tracker
+emoji: 💰
 colorFrom: blue
 colorTo: green
 sdk: docker
@@ -9,25 +9,32 @@ pinned: false
 license: mit
 ---
 
-# Privacy-First Receipt Extractor
+# Expense Tracker
 
-Extract receipt data with 100% local inference.
+Upload receipts to track spending automatically.
 
 ## Features
-- Store name extraction
-- Total amount extraction
-- Non-receipt detection
-- Hallucination prevention
-- Confidence scoring
-
-## Safety Features
-- Rejects non-receipt images
-- No fake data generation
-- Confidence scoring
+- Receipt extraction (store name and total amount)
+- Automatic categorization (groceries, dining, transport, shopping, entertainment, utilities, healthcare)
+- Transaction history
+- Spending dashboard
+- Budget tracking
 
 ## How to Use
 1. Upload a receipt image
-2. Click "Extract Data"
-3. View results
+2. Click "Extract"
+3. View extracted data
+4. Check history and dashboard for insights
 
-Powered by Qwen2-VL-2B
+## Technical Details
+- Model: Qwen2-VL-2B (4-bit quantized)
+- Framework: PyTorch, Transformers, Gradio
+- Deployment: Docker on Hugging Face Spaces
+
+## Privacy
+All processing happens locally. No external API calls.
+
+## Notes
+- First extraction takes 30-60 seconds while model loads
+- Works best with clear, well-lit receipt images
+- Data persists only during the current session
