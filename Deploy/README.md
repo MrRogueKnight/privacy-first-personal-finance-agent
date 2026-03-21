@@ -11,27 +11,23 @@ license: mit
 
 # Privacy-First Receipt Extractor
 
-Extract receipt data with 100% local inference. Your images never leave the server.
+Extract receipt data with 100% local inference.
 
 ## Features
 - Store name extraction
 - Total amount extraction
-- Local processing - no API calls
-- Privacy-first design
+- Non-receipt detection
+- Hallucination prevention
+- Confidence scoring
+
+## Safety Features
+- Rejects non-receipt images
+- No fake data generation
+- Confidence scoring
 
 ## How to Use
-1. Upload a receipt image (JPG, PNG)
+1. Upload a receipt image
 2. Click "Extract Data"
-3. View extracted information
+3. View results
 
-## Technical Details
-- Model: Qwen2-VL-2B (4-bit quantized)
-- Framework: PyTorch, Transformers, Gradio
-- Inference: 100% local
-
-## Privacy Guarantee
-This Space runs entirely on Hugging Face infrastructure. Your images are processed locally and never shared with any external service.
-
----
-
-Built with Hugging Face Spaces, Docker, and Gradio
+Powered by Qwen2-VL-2B
