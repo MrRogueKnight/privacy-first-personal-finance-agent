@@ -14,27 +14,28 @@ license: mit
 Upload receipts to track spending automatically.
 
 ## Features
-- Receipt extraction (store name and total amount)
-- Automatic categorization (groceries, dining, transport, shopping, entertainment, utilities, healthcare)
-- Transaction history
-- Spending dashboard
-- Budget tracking
+- OCR-based receipt extraction with deskew and preprocessing
+- Store name detection
+- Amount extraction using list accumulation (O(n) algorithm)
+- Automatic categorization (7 categories)
+- Real-time spending charts
+- Daily trend visualization
+- Category breakdown pie chart
+- Budget tracking with progress bar
+- CSV export
+- Debug logging for troubleshooting
 
 ## How to Use
 1. Upload a receipt image
-2. Click "Extract"
-3. View extracted data
-4. Check history and dashboard for insights
+2. Click Extract Data
+3. View extracted information
+4. Check Dashboard for charts and insights
 
 ## Technical Details
-- Model: Qwen2-VL-2B (4-bit quantized)
-- Framework: PyTorch, Transformers, Gradio
-- Deployment: Docker on Hugging Face Spaces
+- OCR: Tesseract with image preprocessing (deskew, thresholding, denoise)
+- Algorithm: O(n) scanning for amounts, O(n) max finding
+- Charts: Matplotlib with Agg backend (memory efficient)
+- Storage: Session-based in-memory
 
 ## Privacy
-All processing happens locally. No external API calls.
-
-## Notes
-- First extraction takes 30-60 seconds while model loads
-- Works best with clear, well-lit receipt images
-- Data persists only during the current session
+All processing is local. No external API calls.
