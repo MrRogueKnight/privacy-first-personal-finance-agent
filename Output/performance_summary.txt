@@ -1,0 +1,38 @@
+======================================================================
+PERFORMANCE SUMMARY REPORT
+======================================================================
+
+BASIC METRICS:
+----------------------------------------
+Total Receipts Processed: 973
+Store Names Found: 875 (89.9%)
+Total Amounts Found: 666 (68.4%)
+Total Items Extracted: 0
+
+PROCESSING TIME METRICS:
+----------------------------------------
+Average Time: 1061.76 seconds
+Median Time: 1061.85 seconds
+Standard Deviation: 617.89 seconds
+Minimum Time: 2.82 seconds
+Maximum Time: 2156.43 seconds
+Total Processing Time: 17218.1 minutes (286.97 hours)
+Throughput: 0.1 images/minute
+
+FINANCIAL METRICS:
+----------------------------------------
+Total Spend Captured: $60,000,738,297.72
+Average Transaction: $90,091,198.65
+Median Transaction: $28.00
+Minimum Transaction: $0.00
+Maximum Transaction: $60,000,152,273.00
+
+ITEMS METRICS:
+----------------------------------------
+Total Items Extracted: 0
+Average Items per Receipt: 0.0
+Receipts with Items: 0 (0.0%)
+
+======================================================================
+END OF REPORT
+======================================================================

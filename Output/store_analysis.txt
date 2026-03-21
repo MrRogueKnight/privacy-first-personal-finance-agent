@@ -1,0 +1,49 @@
+============================================================
+STORE ANALYSIS REPORT
+============================================================
+
+TOP 20 STORES BY FREQUENCY:
+
+  [name]: 86 receipts
+  Sanyu Stationery Shop: 45 receipts
+  SYARIKAT PERNIAGAAN GIN KEE: 26 receipts
+  99 Speed Mart S/B: 20 receipts
+  MR. D.I.Y. (M) SDN BHD: 14 receipts
+  Gardenia Bakers (KL) SDN BHD: 11 receipts
+  Gardenia Bakers (Kl) Sdn Bhd: 9 receipts
+  UNIHAKKA INTERNATIONAL SDN BHD: 8 receipts
+  KEDAI PAPAN YEW CHUAN: 8 receipts
+  Popular Book Co.: 8 receipts
+  Gardenia Bakeries (KL) SDN BHD: 7 receipts
+  BEMED (SP) SDN. BHD.: 7 receipts
+  Restoran Wan Sheng: 6 receipts
+  Kedai Papan Yew Chuan: 5 receipts
+  Hon Hwa Hardware Trading: 5 receipts
+  Popular Book Co. (M) SDN BHD: 5 receipts
+  Golden Arches Restaurants Sdn Bhd: 5 receipts
+  Gerbang Alaf Restaurants Sdn Bhd: 5 receipts
+  Lim Seng Tho Hardware Trading: 5 receipts
+  LIGHTROOM GALLERY SDN BHD: 4 receipts
+
+TOP 20 STORES BY SPEND:
+
+  PETRODEL ENIEPRPRISE: $60,000,152,273.00
+  King's Confectionery: $273,570.00
+  ONE THREE SEAFOOD RESTAURANT SDN BHD: $137,136.00
+  KEDAI PAPAN YEW CHUAN: $132,408.16
+  99 Speed Mart S/B: $3,089.80
+  SYARIKAT PERNIAGAAN GIN KEE: $2,451.97
+  BEMED (SP) SDN. BHD.: $1,795.58
+  My Mydin Subang Bestari: $1,670.00
+  AEON PERMAS JAYA: $1,000.00
+  Sanyu Stationery Shop: $817.58
+  YONG BOOK FIST: $753.00
+  FLORISM DE ART: $750.00
+  Unihakka International Sdn Bhd: $710.00
+  Kedai Papan Yew Chuan: $696.48
+  Kedai Ubat & Runcit Hong Ning Sdn. Bhd.: $637.73
+  IKEA Cheras: $633.30
+  Pinghwai Trading Sdn Bhd: $616.80
+  Morganfield's: $593.10
+  SWC Enterprise SDN BHD: $524.00
+  KT Wong Trading: $489.30

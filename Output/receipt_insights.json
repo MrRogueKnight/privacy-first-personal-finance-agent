@@ -1,25 +1,19 @@
 {
-  "total_receipts": 15,
-  "successful_extractions": 14,
-  "total_spend": 9295.860000000002,
-  "average_spend": 774.6550000000002,
+  "total_receipts": 973,
+  "successful_extractions": 882,
+  "total_spend": 60000738297.72,
+  "average_spend": 90091198.64522523,
   "top_stores": {
-    "CROSS CHANNEL NETWORK SDN. BHD.": 2,
-    "Lightroom Gallery SDN BHD": 2,
-    "tan chay yee": 1,
-    "OJC MARKETING SDN BHD": 1,
-    "Petron BKT Lanjan SB Alserkam Enterprise": 1
+    "[name]": 86,
+    "Sanyu Stationery Shop": 45,
+    "SYARIKAT PERNIAGAAN GIN KEE": 26,
+    "99 Speed Mart S/B": 20,
+    "MR. D.I.Y. (M) SDN BHD": 14
   },
-  "category_spend": {
-    "Other": 6777.166999999999,
-    "Dining": 1.9,
-    "Groceries": 29.4,
-    "Electronics": 4000.0,
-    "Transport": 0.94
-  },
-  "avg_items_per_receipt": 2.2666666666666666,
+  "category_spend": {},
+  "avg_items_per_receipt": 0.0,
   "processing_stats": {
-    "avg_time_per_receipt": 13.87595664660136,
-    "total_processing_time": 208.13934969902039
+    "avg_time_per_receipt": 1061.7553860626633,
+    "total_processing_time": 1033087.9906389713
   }
 }
