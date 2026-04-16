@@ -202,8 +202,8 @@ privacy-first-personal-finance-agent/
 |------|------|
 | Team Lead | Prashant Ranjan |
 | Developer | Ritik Prajapati |
-| ML Engineer | Rayapurreadyy Hema Sundhar |
-| Data Analyst | Grihshant Manas Datta |
+| ML Engineer | Rayapurreadyy Hema Sundhar, Venkata Nivas Yalla |
+| Data Analyst | Grihshant Manash Datta, Chandragiri Navdeep |
 
 ---
 
